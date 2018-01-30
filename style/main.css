@@ -1,0 +1,161 @@
+    *{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #body{
+        background-image: url(../imgs/bgimg.jpg);
+        width: 99.24vw;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .thumb{
+    ;
+    }
+
+    .music{
+        height: 5px;
+        background-color: #6600ff;
+    }
+
+    .thumb img:hover{
+        opacity: 1;
+    }
+
+    .thumb img{
+        height: 440px;
+        opacity: 0.7;
+        width: 100%;
+    }
+
+    .festival{
+        background-color: #3399cc;
+        height: 5px;
+    }
+
+    #main{
+        margin-top: 110px;
+        margin-left: -48px;
+    }
+
+    #firsth1{
+        margin-top: 50px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 70px;
+        color: #990000;
+        font-weight: 300;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+
+    #indexbtn{
+        margin-top: 70px;
+        margin-left: 44.4%;
+        width: 180px;
+        border: solid black 2px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    ::-webkit-scrollbar {
+            width: 1px;
+    }
+
+    ::-webkit-scrollbar-track {
+            background: white;
+    }
+
+    ::-webkit-scrollbar-thumb {
+            background: rgba(255,0,0,0.8);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,0,0,0.8);
+    }
+
+    #admin input, #admin textarea{
+        box-shadow: none;
+        background-color: #f3f3f3;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .modal-content p {
+        color: black!important;
+    }
+    
+    #ch1{
+        margin-top: 2px;
+    }
+
+    #poptd{
+        max-width: 9px;
+    }
+
+    #typetd{
+        max-width: 50px;
+    }
+
+
+    .music, .festival{
+        margin-bottom: 20px;   
+    }
+
+    #bottomcontent{
+        margin-top: 350px;
+        margin-left: -150px;
+    }
+    
+    .buybox{
+        margin: 0px;
+        margin-bottom: 10px;
+        z-index: 2;
+    }
+    
+    .buybox img{
+        opacity: 0.8;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .buybox img:hover{
+        opacity: 1;
+    }
+    
+    .buttonbox{
+        z-index: 100;
+        opacity: 1;
+        margin-top: -33px;
+    }
+    
+    .bottombtn{
+        background-color: white!important;
+        margin: 1px;
+        width: 49%;
+        float: right;
+        height: 30px;
+        border: solid black 1px;
+        border-radius: 5px;
+    }
+    
+    .bottominput{
+        margin: 1px;
+        width: 49%;
+        float: left;
+        height: 30px;
+    }
+    
+    .btntxt{
+        margin-top: 2px;
+    }
+    
+    #filler{
+        height: 170px;
+    }
+    
+    .bottomcolor{
+        z-index: 200;
+        margin-top: -2px;
+    }
+    .hidden{
+        display: none;
+    }
